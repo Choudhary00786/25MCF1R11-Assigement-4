@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form within table</title>
+        <style >
+        table, th, td ,h1,p{ 
+            border: 1px solid yellowgreen;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+</head >
+<body>
+    <style >
+    .center-text {
+        text-align: center;
+    }
+    </style>
+    <h1 class="center-text">Registration form</h1>
+    <p class="center-text">Personal Details</p>
+    <form action="/submit_form" method="post" >
+        <table class="center-text">
+            <tr class="center-text">
+                <td><label for="First name">First Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr class="center-text">
+                <td><label for="Last name"> Last Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="text" id="email" name="email" required></td>
+            </tr>
+            <tr class="center-text">
+                <td><label for="Phone Number ">Phone Number:</label></td>
+                <td><input type="number" id="name" Phone Number="name" required></td>
+            </tr>
+        </table>
+    </form>
+    <p class="center-text">Account Details</p>
+    <form action="/submit_form" method="post" >
+        <table class="center-text">
+            <tr class="center-text">
+                <td><label for=" Username "> Username :</label></td>
+                <td><input type="text" id="Username" name="Username" required></td>
+            </tr>
+            <tr class="center-text">
+                <td><label for="Passward "> Passward:</label></td>
+                <td><input type="number/text" id="Passward" name="Passward" required></td>
+            </tr>
+            <tr>
+                <td><label for="Confirm Passward">Confirm Passward:</label></td>
+                <td><input type="number/text" id="Passward" name="Passward" required></td>
+            </tr>
+        </table>
+    </form>
+</table>
+</form>
+<p class="center-text">Address</p>
+<form action="/submit_form" method="post" >
+    <table class="center-text">
+        <tr class="center-text">
+            <td><label for=" Address Line 1:* "> Address Line 1 :</label></td>
+            <td><input type="text" id="Address1" name="Address1" required></td>
+        </tr>
+        <tr class="center-text">
+            <td><label for="Address Line2 "> Address Line 2 :</label></td>
+            <td><input type="text" id="Address" name="Address" required></td>
+        </tr>
+        <tr>
+            <td><label for="City">City:</label></td>
+            <td><input type="text" id="City" name="City" required></td>
+        </tr>
+        <tr>
+            <td><label for="State">State:</label></td>
+            <td>
+                <select >
+                    <option value="select State">------select State------</option>
+                    <option value="Telengana">Telengana </option>
+                    <option value="Madhya Predsh"> Madhya Predsh </option>
+                    <option value="Rajeshthan">Rajeshthan</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td><label for="Zipe code">Zipe code:</label></td>
+                <td><input type="text" id="Zipe code" name="Zipe code" required></td>
+            </tr>
+        </table>
+    </form><p class="center-text">Preferences</p>
+    <form action="/submit_form" method="post" >
+        <table class="center-text">
+            <tr>
+                <td><label for="Gender">Gender:</label></td>
+                <td><input type="radio" id="Male" name="Gender" value="Male">
+                    <label for="Male">Male</label><br>
+                    <input type="radio" id="Female" name="Gender" value="Female">
+                    <label for="Female">Female</label><br>
+                    <input type="radio" id="Other" name="Gender" value="Other">
+                    <label for="Other">Other</label>
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td><label for="Subscribe Newsletter">Subscribe Newsletter:</label></td>
+                <td><input type="radio" id="Male" name="Gender" value="Male">
+                    <tr>
+                        <td><label for="Short Bio">Short Bio:</label></td>
+                        <td><textarea id="message" name="message" rows="4" cols="30"></textarea></td>
+                        <label>
+
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <input type="checkbox" value="text">
+                                I agree to the Terms and Conditons
+                            </td>
+                         </tr>
+                         
+                          <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <input type="submit" value="Registration">
+                                <input type="submit" value="Reset">
+                            </td>
+                          </tr>
+                          
+                        </form>
+                        </body>
+                        </html>
+
+
+                        
